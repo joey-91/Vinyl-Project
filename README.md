@@ -1,4 +1,4 @@
-# Using Machine Learning Techniques to Determine the Value of a Record
+# Using Machine Learning Techniques to Determine the Value of Records
 
 This project didn't start with a hypothesis. All I knew was the website from which I scraped the data was a rich source of 
 information, and I'd figure out a use for it later and hopefully make some discoveries on the way.
