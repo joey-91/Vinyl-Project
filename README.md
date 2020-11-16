@@ -20,7 +20,9 @@ As the value i'm trying to predict is continuous, I figured this would be a regr
 The next thing to try was an ensemble model, with a simple regression score of 33%, sklearn's GradientBoostingRegressor gave me 20% uplift. Not able to say whether for positive or negative, the feature importances of this model were pretty consistent with the last model.
 
 ### 4 - Classification Models
-I figured this problem could be better modelled as a price range prediction rather than exact value. I feel like there's a broader range of higher variance/less bias models at your disposal + more metrics for classification problems. Having come back to this a few times over the last couple of years with new techniques, I'm now certain I've squeezed every drop out of it. Firstly I've built a Neural Network using Keras architecture, with 20% drop out at each stage, and early stopping based on validation-loss. This model at it's optimum gives 55.3% accuracy (only 2% higher than my boosted regressor, which made me realise that's actually a very powerful model). The next and highest performing model I applied was an XGBoostClassifier, using a Bayesian method for Hyperparameter tuning, i was able to get a further 1.6% model improvement.
+I figured this problem could be better modelled as a price range prediction rather than exact value. I feel like there's a broader range of higher variance/less bias models at your disposal + more metrics for classification problems. Having come back to this a few times over the last couple of years with new techniques, I'm now certain I've squeezed every drop out of it. Firstly I built a Neural Network using Keras architecture, with 20% drop out at each stage, and early stopping based on validation-loss. 
+
+This model at it's optimum gives 55.3% accuracy (only 2% higher than my boosted regressor, which made me realise that's actually a very powerful model). The next and highest performing model I applied was an XGBoostClassifier, using a Bayesian method for Hyperparameter tuning, i was able to get a further 1.6% model improvement.
 
 
 
