@@ -1,10 +1,6 @@
 ## Predicting Vinyl Record Prices
 
-This project aims to build the best possible model for predicting record prices, given all the potential predictors I could find on Discogs.com
-
-## Motivation
-
-This was the final project of my General Assembly Data Science Immersive course. I wanted to build something a little more interesting than the datasets available on Kaggle, and a tool I could potentially use myself for finding bargains.
+This project aims to build the best possible model for predicting record prices, given all the potential predictors I could find on Discogs.com. It started with me wanting to build something a little more interesting than the datasets available on Kaggle, and a tool I could potentially use myself for finding bargains.
 
 ## Methodology
 
