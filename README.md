@@ -4,7 +4,7 @@ This project aims to build the best possible model for predicting record prices,
 
 ## Motivation
 
-This was the final project of my General Assembly Data Science Immersive course. I wanted to build something a little more interesting than the datasets available on Kaggle, and a tool I could potentially use for myself.
+This was the final project of my General Assembly Data Science Immersive course. I wanted to build something a little more interesting than the datasets available on Kaggle, and a tool I could potentially use myself for finding bargains.
 
 ## Methodology
 
